@@ -1,6 +1,6 @@
 # Massless
 
-Massless is an Open Source cloud file storage server (Similar To Google Drive). Host Massless on your own server or trusted platform and then access Massless through your web browser. Massless uses mongoDB to store file/folder metadata, and supports multiple databases to store the file chunks, such as Amazon S3, the Filesystem, or just MongoDB. Massless is built using Node.js, and Typescript. The service now even supports Docker images! 
+Massless is an Open Source cloud file storage server (Similar To Google Drive and Dropbox). Massless uses mongoDB to store file/folder metadata, and supports multiple databases to store the file chunks, such as Amazon S3, the Filesystem, or just MongoDB. Massless is built using Node.js, and Typescript. The service now even supports Docker images! 
 
 
 ## Features
@@ -68,17 +68,6 @@ npm run create-indexes-database
 npm run start
 ```
 
-## WebUI For Encryption s
-
-MyDrive will first host a server on http://localhost:3000 in order to safely get the encryption key, just navigate to this URL in a browser, and enter the encryption key. You can access this URL through your IP address also, but localhost is recommended to avoid man in the middle attacks.
-
-If you're using a service like SSH or a Droplet, you can forward the localhost connection safely like so:
-```bash
-ssh -L localhost:3000:localhost:3000 username@ip_address
-```
-
-Note: You can also disable using the webUI for the encryption key by providing a key in the server environment variables (e.g. KEY=password), but this is not recommended because it greatly reduces security. 
-
 ## Docker
 
 MyDrive has built in Docker support, there are two options when using Docker, users can either use the Docker image that has MongoDB built in, or use the Docker image that just has the MyDrive image (If you're using a service like Atlas).
@@ -98,7 +87,6 @@ Start the Docker Image:
 ```bash
 docker-compose up
 ```
-
 
 ## Environment Variables
 
