@@ -3,7 +3,7 @@ const env = {
     url: process.env.REMOTE_URL,
     enableVideoTranscoding: process.env.ENABLE_VIDEO_TRANSCODING,
     disableStorage: process.env.DISABLE_STORAGE,
-    googleDriveEnabled: true,
+    googleDriveEnabled: false,
     s3Enabled: true,
     activeSubscription: false,
     commercialMode: process.env.COMMERCIAL_MODE,
