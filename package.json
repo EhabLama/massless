@@ -114,11 +114,9 @@
     "webpack": "^4.41.6"
   },
   "devDependencies": {
-    "@types/bson": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
     "babel-loader": "^8.0.6",
-    "bson": "^4.6.3",
     "compression-webpack-plugin": "^5.0.0",
     "connect-busboy": "0.0.3",
     "cross-env": "^6.0.3",
