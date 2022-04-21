@@ -26,7 +26,7 @@ const serverStart = async() => {
         const port = process.env.HTTP_PORT || process.env.PORT;
     
         server.listen(port, process.env.URL, () => {
-            console.log("Http Server (No-SSL) Running On Port:", port);
+            console.log("Http Server (No-SSL) Running On Port:", process.env.PORT);
         })
 
     } else {
