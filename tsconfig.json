@@ -67,7 +67,6 @@
     "tests",
     "key",
     "public",
-    "node_modules",
     "webpack.config.js",
     "dist",
     "webUI",

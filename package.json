@@ -44,7 +44,6 @@
     "@beyonk/google-fonts-webpack-plugin": "^1.5.0",
     "@sendgrid/mail": "^7.2.1",
     "@types/bcrypt": "^3.0.0",
-    "@types/bson": "^4.2.0",
     "@types/compression": "^1.7.0",
     "@types/concat-stream": "^1.6.0",
     "@types/connect-busboy": "0.0.2",
@@ -115,6 +114,7 @@
     "webpack": "^4.41.6"
   },
   "devDependencies": {
+    "@types/bson": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
     "babel-loader": "^8.0.6",
