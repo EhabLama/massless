@@ -23,10 +23,10 @@ const serverStart = async() => {
         
     } else if (process.env.NODE_ENV === 'production') {
 
-        const port = process.env.HTTP_PORT || process.env.PORT;
+        const port = process.env.PORT || 80;
     
         server.listen(port, process.env.URL, () => {
-            console.log("Http Server (No-SSL) Running On Port:", process.env.PORT);
+            console.log("Http Server (No-SSL) Running On Port:", port);
         })
 
     } else {
