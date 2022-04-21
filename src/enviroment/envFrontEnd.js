@@ -1,6 +1,6 @@
 const env = {
     port: process.env.PORT,
-    url: process.env.REMOTE_URL,
+    url: "https://massless.herokuapp.com",
     enableVideoTranscoding: process.env.ENABLE_VIDEO_TRANSCODING,
     disableStorage: process.env.DISABLE_STORAGE,
     googleDriveEnabled: false,
